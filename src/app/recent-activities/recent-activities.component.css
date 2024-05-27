@@ -1,0 +1,133 @@
+.container {
+    width: 100%;
+}
+
+.content {
+    width: 80%;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.activitie-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.activitie-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activitie-info h3 {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.activitie-info a {
+    text-transform: capitalize;
+    color: #e00800;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.line {
+    width: 35px;
+    height: 4px;
+    background-color: #c6a25b;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.activitie-text {
+    margin: 5px 0;
+}
+
+.activitie-text p {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5f5f5fea;
+}
+
+.activitie-cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.activitie-card{
+    width: 23%;
+    padding: 13px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 9px #00000029;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activitie-card-info{
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.activitie-card-info h3{
+    color: #333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.activitie-card-info h5{
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #333333e7;
+}
+.activitie-card-jobs{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333af;
+    margin: 8px 0;
+}
+.activitie-card-jobs span{
+    color: #333333e1;
+}
+.activitie-card-time {
+    margin-top: 8px;
+}
+.activitie-card-time span{
+    font-size: 14px;
+    margin-right: 5px;
+    color: #33333374;
+    font-weight: 600;
+}
+
+.activitie-card-icon{
+    width: auto;
+}
+.activitie-card-icon a{
+    color: #e00800;
+    font-size: 20px;
+}
+
+/*
+@media screen and (max-width: 768px) {
+    .content {
+        width: 100%;
+    }
+
+    .activitie-header h3 {
+        font-size: 18px;
+    }
+
+    .activitie-header a {
+        font-size: 14px;
+    }
+
+    .activitie-text p {
+        font-size: 14px;
+    }
+} */
+
+

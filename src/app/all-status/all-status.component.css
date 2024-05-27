@@ -1,0 +1,104 @@
+.container {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.daily-jobs-container{
+    width:60%;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    padding: 13px;
+
+}
+.all-jobs-container{
+    width: 38%;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    padding: 13px;
+}
+.daily-jobs-header{
+
+}
+.daily-jobs-header h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.daily-jobs-header p{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5f5f5fea;
+}
+.daily-jobs-info{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.daily-job-card{
+    width: 18%;
+}
+.card-content{
+    display: flex;
+}
+.card-content h3{
+    font-size: 22px;
+    color: #333;
+    margin: 0 5px;
+}
+
+.icons{
+    background-color: rgba(11, 98, 164, 0.475);
+    padding: 6px 7px;
+    border-radius: 10px;
+}
+.icons i{
+    color: rgb(11, 98, 164);
+    font-size: 18px;
+}
+.daily-job-card p{
+    margin: 5px 0;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    color: #333333ba;
+}
+
+.all-jobs-header{
+    display: flex;
+    justify-content: space-between;
+}
+.all-jobs-header h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.all-jobs-header a{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    color: #353434;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

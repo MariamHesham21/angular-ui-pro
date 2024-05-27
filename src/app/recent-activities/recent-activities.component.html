@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="content">
+        <div class="activitie-header">
+            <div class="activitie-info">
+                <h3>recent activities</h3>
+                <a routerLink="/">view all</a>
+            </div>
+            <div class="line">
+            </div>
+        </div>
+        <div class="activitie-text">
+            <p>latest update on 10-05-2023</p>
+        </div>
+        <div class="activitie-cards-container">
+            <div class="activitie-card" *ngFor="let activity of activities">
+                <div class="activitie-card-info">
+                    <h3>{{activity.num}}</h3>
+                    <p class="activitie-card-jobs"><span>{{activity.jobs}}</span> total jobs</p>
+                    <h5>{{activity.actionType}}</h5>
+                    <p class="activitie-card-time"><span>{{activity.date}}</span><span>{{activity.time}}</span></p>
+                </div>
+                <div class="activitie-card-icon">
+                    <a routerLink="/"><i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
